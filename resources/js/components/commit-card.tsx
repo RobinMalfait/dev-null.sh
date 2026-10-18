@@ -186,7 +186,7 @@ export function CommitCard({
                                 href={show(commit.user)}
                                 tabIndex={-1}
                                 className={cn('group/node flex rounded-full', {
-                                    '-translate-y-[9px]':
+                                    'translate-y-[-9px]':
                                         isGroupedWithPrevious &&
                                         railNodePosition === 'top',
                                 })}

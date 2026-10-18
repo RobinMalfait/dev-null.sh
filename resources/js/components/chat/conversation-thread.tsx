@@ -859,9 +859,9 @@ function BubbleWithMeta({
                                     ? 'bg-primary text-primary-foreground'
                                     : 'bg-muted text-foreground',
                                 {
-                                    'bg-transparent text-foreground outline-[1.5px] -outline-offset-[1.5px] outline-primary outline-dashed':
+                                    'bg-transparent text-foreground outline-[1.5px] outline-offset-[-1.5px] outline-primary outline-dashed':
                                         status === 'staged',
-                                    'bg-transparent text-foreground outline-[1.5px] -outline-offset-[1.5px] outline-destructive outline-solid':
+                                    'bg-transparent text-foreground outline-[1.5px] outline-offset-[-1.5px] outline-destructive outline-solid':
                                         status === 'rejected',
                                 },
                             )}
