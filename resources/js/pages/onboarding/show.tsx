@@ -410,7 +410,7 @@ export default function Show({
                     }
                 >
                     <dl className="divide-y rounded-lg border bg-card text-[15px]">
-                        <div className="px-4 py-4">
+                        <div className="p-4">
                             <dt className="font-semibold">Write a commit</dt>
                             <dd className="mt-1 text-pretty text-muted-foreground">
                                 The composer sits at the top of your log. Plain
@@ -420,7 +420,7 @@ export default function Show({
                                 commit.
                             </dd>
                         </div>
-                        <div className="px-4 py-4">
+                        <div className="p-4">
                             <dt className="font-semibold">Use the keyboard</dt>
                             <dd className="mt-1 text-pretty text-muted-foreground">
                                 <Kbd>j</Kbd> and <Kbd>k</Kbd> move between
@@ -442,7 +442,7 @@ export default function Show({
                                 </span>
                             </dd>
                         </div>
-                        <div className="px-4 py-4">
+                        <div className="p-4">
                             <dt className="font-semibold">
                                 Commit from the terminal
                             </dt>

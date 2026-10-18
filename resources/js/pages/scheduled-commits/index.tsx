@@ -91,7 +91,7 @@ export default function Index({
                         return (
                             <li
                                 key={scheduled.id}
-                                className="space-y-3 px-5 py-5 sm:px-6"
+                                className="space-y-3 p-5 sm:px-6"
                             >
                                 <div className="flex items-start justify-between gap-3">
                                     <div className="min-w-0">

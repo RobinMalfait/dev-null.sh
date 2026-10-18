@@ -153,7 +153,7 @@ function CommitComposerBody({
             />
 
             <div
-                className={cn('flex min-w-0 flex-1 pt-3 pr-4 pb-3', {
+                className={cn('flex min-w-0 flex-1 py-3 pr-4', {
                     'border-b': !isInDialog,
                 })}
             >
