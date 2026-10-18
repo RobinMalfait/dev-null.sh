@@ -160,7 +160,7 @@ function ConversationRow({
                         >
                             {partner.name}
                         </span>
-                        <span className="flex min-w-0 shrink-[4] items-center gap-1 font-mono text-xs text-muted-foreground">
+                        <span className="flex min-w-0 shrink-4 items-center gap-1 font-mono text-xs text-muted-foreground">
                             <span className="truncate">
                                 @{partner.username}
                             </span>

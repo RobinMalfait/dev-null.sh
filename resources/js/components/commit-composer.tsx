@@ -432,7 +432,7 @@ function CommitComposerBody({
                                         issue.processing || !isSubmittable
                                     }
                                     onClick={() => void issue.submit()}
-                                    className="min-w-[7.5rem]"
+                                    className="min-w-30"
                                     data-test="open-issue-button"
                                 >
                                     {issue.processing
@@ -450,7 +450,7 @@ function CommitComposerBody({
                                 <Button
                                     type="submit"
                                     disabled={processing || !isSubmittable}
-                                    className="min-w-[7.5rem]"
+                                    className="min-w-30"
                                     data-test="create-commit-button"
                                 >
                                     {isScheduling
