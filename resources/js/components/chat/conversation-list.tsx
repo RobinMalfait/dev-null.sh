@@ -294,7 +294,7 @@ function OrgAvatar({
                 <MemberStack
                     users={[first, second]}
                     max={2}
-                    className="absolute inset-0 [&>*]:absolute [&>*]:m-0! [&>*:first-child]:top-0 [&>*:first-child]:left-0 [&>*:last-child]:right-0 [&>*:last-child]:bottom-0"
+                    className="absolute inset-0 *:absolute *:m-0! [&>*:first-child]:top-0 [&>*:first-child]:left-0 [&>*:last-child]:right-0 [&>*:last-child]:bottom-0"
                     avatarClassName={isCompact ? 'size-5.5' : 'size-7'}
                 />
             )}
