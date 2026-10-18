@@ -194,7 +194,7 @@ function CommitScript({ url }: { url: string }) {
 
     return (
         <div className="mt-3 flex items-start gap-2 rounded-md border bg-background py-2 pr-2 pl-3">
-            <code className="min-w-0 flex-1 py-0.5 font-mono text-[13px] leading-5 [overflow-wrap:anywhere]">
+            <code className="min-w-0 flex-1 py-0.5 font-mono text-[13px] leading-5 wrap-anywhere">
                 {command}
             </code>
             <Button

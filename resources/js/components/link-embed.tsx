@@ -52,7 +52,7 @@ function Details({ preview, embed }: { preview: LinkPreview; embed: Embed }) {
                 {preview.site_name ?? embed.provider}
             </span>
             {preview.title && (
-                <span className="line-clamp-2 text-[15px] leading-snug font-medium break-words">
+                <span className="line-clamp-2 text-[15px] leading-snug font-medium wrap-break-word">
                     {preview.title}
                 </span>
             )}

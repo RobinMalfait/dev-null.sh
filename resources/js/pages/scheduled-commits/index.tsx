@@ -159,7 +159,7 @@ export default function Index({
                                             (option) => (
                                                 <li
                                                     key={option}
-                                                    className="rounded-md border px-3 py-2 text-[15px] [overflow-wrap:anywhere]"
+                                                    className="rounded-md border px-3 py-2 text-[15px] wrap-anywhere"
                                                 >
                                                     {emojify(option)}
                                                 </li>
