@@ -243,7 +243,7 @@ export function InboxPanel({
 
             <div
                 role="tabpanel"
-                className="min-h-0 flex-1 [scrollbar-width:thin] overflow-y-auto overscroll-contain"
+                className="min-h-0 flex-1 scrollbar-thin overflow-y-auto overscroll-contain"
             >
                 <ConversationList
                     conversations={list}

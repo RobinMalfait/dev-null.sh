@@ -376,7 +376,7 @@ export function ConversationThread({
             <div
                 ref={scroller}
                 onScroll={onScroll}
-                className="flex min-h-0 flex-1 [scrollbar-width:thin] flex-col overflow-y-auto overscroll-contain"
+                className="flex min-h-0 flex-1 scrollbar-thin flex-col overflow-y-auto overscroll-contain"
                 data-test="conversation-messages"
             >
                 {thread === null || !thread.isLoaded ? (

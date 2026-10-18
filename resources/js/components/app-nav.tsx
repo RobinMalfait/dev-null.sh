@@ -234,7 +234,7 @@ export function AppNav({
     const keys = useKeyLabels();
 
     return (
-        <header className="sticky top-0 hidden h-svh w-20 shrink-0 [scrollbar-width:none] flex-col items-center overflow-y-auto py-6 md:flex lg:w-64 lg:items-stretch lg:px-4">
+        <header className="sticky top-0 hidden h-svh w-20 shrink-0 scrollbar-none flex-col items-center overflow-y-auto py-6 md:flex lg:w-64 lg:items-stretch lg:px-4">
             <LogoMenu>
                 <Link
                     href={
